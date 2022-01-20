@@ -1,0 +1,12 @@
+[Unit]
+Description=RistingBOT
+after=network.target
+
+[Service]
+type=simple
+user=risting
+ExecStart=/usr/bin/node /home/risting/RistingBOT/client.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
