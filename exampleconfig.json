@@ -1,0 +1,6 @@
+{
+  "token":"your-token-goes-here",
+  "guildId":"your-server-or-guild-id-here",
+  "clientId":"your-clientid-here",
+  "conninfo":"secret message"
+}
