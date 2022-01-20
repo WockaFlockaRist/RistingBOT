@@ -24,7 +24,6 @@ Click the cog wheel, go to Advanced and tick of developer mode. Now you can copy
 
 Right click the server you want to add your bot to and click 'Copy ID', this is your guildId.
 
-
 To add your application to a server, go to your applications under https://discord.com/developers/applications
 
 Click OAuth2>URL Generator and tick off bot and applications.commands.
@@ -33,7 +32,7 @@ Give it Send Messages, Manage Messages, Use Slash commands, should be fine, if y
 
 Copy the URL and you will get a list of servers where you can add the bot, you need to have the correct permissions on the server to do this. If the server is not in the list you do not have enough permissions on the server.
 
-If you want to add new or other now you need to change the `deploy-commands.js` file.
+If you want to add new or other slashcommands, you need to change the `deploy-commands.js` file.
  
 Now you can run deploy-commands.js like so `node deploy-commands.js`, you should get output like `Successfully registered application commands.` If you dont you have not successfully done all previous steps.
 
