@@ -10,7 +10,7 @@ node 17.4.0
 discord.js 13
 
 
-# Usage
+# Guide and Usage
 
 Create your application under https://discord.com/developers/applications 
 
