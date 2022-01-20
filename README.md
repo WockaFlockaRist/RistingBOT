@@ -16,7 +16,7 @@ Create your application under https://discord.com/developers/applications
 
 Click on your application and find your clientID and clientsecret under OAuth2
 
-Rename your exampleconfig.json to config.json and add your unique tokens.
+Rename exampleconfig.json to config.json
 
 Turn on developer mode on discord by heading to the regular discord app or webpage.
 
